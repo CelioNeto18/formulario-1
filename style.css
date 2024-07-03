@@ -1,0 +1,51 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body{
+    background-position: center; /* Centraliza a imagem */
+    /* Outras propriedades de estilo conforme necessário */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/back2.jpg');
+}
+
+header{
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin: 120px auto;
+    /*Usando rgba consiguimos definir a transparencia
+    da cor, no caso aqui o preto*/
+    box-shadow:0 0 7px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+img{
+    width: 120px;
+}
+
+body{
+    background-color: rgb(171, 241, 170);
+}
+
+form{
+    /*isso foi novidade para mim, nao sabia que para
+    centralizar as informaçoes do form fosse assim.*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form input{
+    /*essa opçao faz com que eu selecione apenas os
+    inputs dentro do formulario e defina uma margem
+    vinda de baixo para cima de 20px*/
+    margin-bottom: 20px;
+}
+
+h1{
+    padding-bottom:25px;
+}
